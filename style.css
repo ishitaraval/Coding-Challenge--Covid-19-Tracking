@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.header {
+    background-image: url(img/cover.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 4em 1em;
+    margin: 0;
+    box-shadow: 0px 1px 3px #b9a887;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+body {
+    margin: auto;
+    background-color: #fff0d5;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+p {
+    margin: 0 3em;
+    align-content: center;
+    border-radius: 2em;
+}
+
+input {
+    border-radius: 2em;
+    border: none;
+    padding: 0.5em 0.6em;
+    box-shadow: 0px 1px 3px #b9a887;
+    font-family: 'DM Sans', sans-serif;
+    background-color: white;
+}
+
+.input {
+    padding-bottom: 3em;
+    align-content: center;
+    text-align: center;
+}
+
+.button {
+    background-color: #F55C6A;
+    color: white;
+}
+.displayData {
+    color: rgb(196, 45, 45);
+    text-align: center;
+    margin-bottom: 3em;
+    
+}
+.display{
+    list-style-type: none;
+}
+
+.text {
+    padding: 3em 0;
+}
+
+@media screen and (min-width: 45em) {
+    
+    p {
+        justify-content: center;
+        max-width: 35em;
+        margin: auto;
+    }
+}
